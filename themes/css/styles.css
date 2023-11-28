@@ -1,0 +1,352 @@
+@font-face {
+    font-family: dosis-r;
+    src: url('../fonts/dosis/Dosis-Regular.otf');
+}
+@font-face {
+    font-family: dosis-sb;
+    src: url('../fonts/dosis/Dosis-SemiBold.otf');
+}
+@font-face {
+    font-family: dosis-b;
+    src: url('../fonts/dosis/Dosis-Bold.otf');
+}
+@font-face {
+    font-family: dosis-l;
+    src: url('../fonts/dosis/Dosis-Light.otf');
+}
+
+.header {
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+.wrapper {
+    margin: auto auto 20px;
+    width: 1200px;
+}
+.paginate_button.active > a {
+    background: #33495d none repeat scroll 0 0;
+    border-color: #33495d;
+}
+.form-field .text-field {
+    border: 1px solid grey;
+    color: grey;
+    height: 27px;
+    padding: 0 6px;
+    width: 200px;
+}
+.form-field {
+    margin: 10px 0;
+}
+
+
+/*  bhoechie tab */
+div.bhoechie-tab-container{
+  z-index: 10;
+  background-color: #ffffff;
+  padding: 0 !important;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  border:1px solid #ddd;
+  margin-top: 20px;
+  margin-left: 50px;
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  -moz-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  background-clip: padding-box;
+  opacity: 0.97;
+  filter: alpha(opacity=97);
+}
+div.bhoechie-tab-menu{
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group{
+  margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group>a{
+  margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group>a .glyphicon,
+div.bhoechie-tab-menu div.list-group>a .fa {
+  color: #33495D;
+}
+div.bhoechie-tab-menu div.list-group>a:first-child{
+  border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group>a:last-child{
+  border-bottom-right-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group>a.active,
+div.bhoechie-tab-menu div.list-group>a.active .glyphicon,
+div.bhoechie-tab-menu div.list-group>a.active .fa{
+  background-color: #33495D;
+  background-image: #5A55A3;
+  color: #ffffff;
+}
+div.bhoechie-tab-menu div.list-group>a.active:after{
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-top: -13px;
+  border-left: 0;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-left: 10px solid #33495D;
+}
+
+div.bhoechie-tab-content{
+  background-color: #ffffff;
+  /* border: 1px solid #eeeeee; */
+  
+  padding-top: 10px;
+}
+
+div.bhoechie-tab div.bhoechie-tab-content:not(.active){
+  display: none;
+}
+
+.list-group {
+    border-right: 1px solid #ddd;
+    height: 100%;
+}
+.list-group > a {
+   border-right: medium none navy;
+color: black;
+font-family: dosis-r;
+font-size: 17px;
+text-transform: uppercase;
+}
+
+.col-lg-9.middle-content {
+    width: 87.9%;
+    height: 100%;
+}
+.col-sm-1.leftnavigation {
+    width: 11%;
+}
+
+body {
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+.synchronize ul li {
+    float: left;
+    width: 20%;
+}
+.synchronize ul li {
+    border: 1px solid grey;
+    list-style: outside none none;
+    margin: 0 7px 0 0;
+    text-align: center;
+}
+.synchronize ul li img {
+    width: 100%;
+}
+.synchronize li button {
+    background: grey none repeat scroll 0 0;
+    border: medium none;
+    color: white;
+    padding: 8px 0;
+    width: 100%;
+}
+.synchronize > ul {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+#loading {
+    background: rgba(255, 255, 255, 0.77) none repeat scroll 0 0;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left:0;
+    width: 100%;
+     z-index: 2147483647;
+}
+#loading img {
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+}
+#loginloading {
+    background: rgba(255, 255, 255, 0.77) none repeat scroll 0 0;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left:0;
+    width: 100%;
+     z-index: 2147483647;
+}
+#loginloading img {
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+}
+
+
+
+
+.head h2 {
+  
+    color: #33495D;
+    float: left;
+    margin: 0px;
+    font-family: dosis-r;
+    text-transform: uppercase;
+}
+.head {
+border-bottom: 1px solid #dddddd;
+margin-bottom: 20px;
+overflow: hidden;
+padding-bottom: 10px;
+    
+}
+
+.buttons { 
+    overflow: hidden;
+    text-align: right;
+}
+.buttons .btn,.btn {
+    background: #33495d none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    color: white;
+}
+
+.glyphicon.glyphicon-pencil {
+   color: green;
+    cursor: pointer;
+}
+.glyphicon.glyphicon-remove {
+    color: red;
+    cursor: pointer;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    border-color: grey;
+}
+
+.root_box a {
+    color: white;
+}
+
+
+.root_box {
+  background: #33495d none repeat scroll 0 0;
+  border: 1px solid grey;
+  color: white;
+  float: left;
+  font-family: dosis-r;
+  font-size: 21px;
+  margin: 0 4px;
+  padding: 10px 11px;
+  text-align: center;
+  vertical-align: middle;
+}
+.userform {
+    margin: auto;
+    width: 500px;
+}
+.userform .form-control {
+    margin: 0 0 16px;
+}
+
+.add_button {
+    background: #33495d none repeat scroll 0 0;
+    color: white !important;
+    float: left;
+    font-family: dosis-l;
+    font-size: 20px;
+    padding: 8px;
+    text-decoration: none !important;
+}
+.add_button img {
+    margin-left: 11px;
+}
+.addquiz {
+    margin-bottom: 15px;
+    overflow: hidden;
+    width: 100% !important;
+}
+
+#quiz > input {
+border: 1px solid #dddddd;
+font-family: dosis-b;
+font-size: 17px;
+margin: 10px 2px 0 0;
+padding: 5px;
+}
+#quiz > input:first-child {
+    width: 345px;
+}
+#quiz > input:nth-child(6) {
+    width: 42px;
+}
+
+.new_quiz input {
+    margin: 10px 6px 0 0 !important;
+}
+
+.login-box {
+    border: 1px solid #ddd;
+    margin: 5% auto auto;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    width: 34%;
+}
+.login-box .heading {
+    background-color: #33495d;
+    color: white;
+    display: block;
+    float: left;
+    font-family: dosis-b;
+    font-size: 27px;
+    position: absolute;
+    right: 46%;
+    text-align: center;
+    top: 84px;
+  
+    width: 100%;
+       -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+}
+.login-box > .form-group {
+    border: 1px solid;
+    float: right;
+    overflow: hidden;
+    width: 94%;
+}
+.login-box .form-group #subjectform button {
+    clear: left;
+    float: right;
+}
+.login-box fieldset {
+    overflow: hidden;
+    width: 100%;
+}
+.login-box input {
+    width: 100% !important;
+}
+
+.login-box .inner > .form-group {
+border: 1px solid #ddd;
+float: right;
+margin: 0;
+overflow: hidden;
+padding: 10px;
+width: 92%;
+}

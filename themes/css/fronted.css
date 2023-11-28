@@ -1,0 +1,341 @@
+@font-face {
+    font-family: dosis-r;
+    src: url('../fonts/dosis/Dosis-Regular.otf');
+}
+@font-face {
+    font-family: dosis-sb;
+    src: url('../fonts/dosis/Dosis-SemiBold.otf');
+}
+@font-face {
+    font-family: dosis-b;
+    src: url('../fonts/dosis/Dosis-Bold.otf');
+}
+@font-face {
+    font-family: dosis-l;
+    src: url('../fonts/dosis/Dosis-Light.otf');
+}
+.boxes {
+    border: 1px solid #ddd;
+    margin: 3% auto 3%;
+    overflow: hidden;
+    padding: 20px;
+    width: 70%;
+}
+.boxes input:focus {
+  border-color: #fa8072;
+}
+.boxes input {
+    -moz-border-bottom-colors: none !important;
+    -moz-border-left-colors: none !important;
+    -moz-border-right-colors: none !important;
+    -moz-border-top-colors: none !important;
+    border-bottom: 1px solid #ddd;
+    border-image: none !important;
+    border-left: medium none !important;
+    border-radius: 0 !important;
+    border-right: medium none !important;
+    border-top: medium none !important;
+    box-shadow: unset !important;
+    margin-bottom: 20px;
+    padding: 0;
+    letter-spacing: 1px;
+    color:black;
+    font-family: dosis-b;
+}
+
+.exitinguser {
+    float: left;
+    width: 29%;
+}
+.newuser {
+border-left: 1px solid #ddd;
+float: right;
+padding-left: 93px;
+width: 61%;
+}
+
+.exitinguser h2 span, .newuser h2 span {
+    color: grey;
+    display: block;
+    font-size: 14px;
+    margin: 7px 0 25px;
+}
+.boxes h2 {
+border-bottom: 4px solid;
+color: salmon;
+font-family: dosis-b;
+letter-spacing: 4px;
+margin-bottom: 30px !important;
+text-transform: uppercase;
+width: 100%;
+}
+
+.btn {
+    background: #ddd none repeat scroll 0 0;
+    border-radius: 0;
+    color: white;
+    font-family: dosis-b;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.btn:hover {
+    background: salmon none repeat scroll 0 0;
+    color: white !important;
+}
+
+.boxes .btn {
+    float: left;
+}
+.boxes #loading1 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.boxes #loading2 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+.logout-btn {
+    margin-top: 20px;
+}
+
+.header h1 span {
+    background: #fa8072 none repeat scroll 0 0;
+    border-bottom: 5px solid #33495d;
+    color: white;
+    font-size: 49px;
+    padding: 18px 18px 15px !important;
+}
+.header h1 {
+    font-family: dosis-r;
+    color: #33495d;
+}
+
+nav {
+    border-bottom: 1px solid #ddd;
+    margin-top: 30px;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+    list-style: outside none none;
+}
+nav ul li a {
+    border-right: 1px solid #ddd;
+    font-family: dosis-b;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 0 16px;
+    text-transform: uppercase;
+}
+nav ul {
+    overflow: hidden;
+    padding: 0;
+}
+
+nav ul li a:hover {
+    color: #fa8072;
+    text-decoration: none;
+}
+	.item {
+			text-align:center;
+			float:left;
+			margin:5px;
+			position:relative;			
+		}
+		
+			.item,
+			.item-hover,
+			.item-hover .mask,
+			.item-img,
+			.item-info {
+				width:200px;
+				height: 200px;	
+                                
+			}
+                        .item
+			 {
+				
+                                background: #ddd;
+			}
+
+			.item-hover,
+			.item-hover .mask,
+			.item-img { 
+				position:absolute;
+				top:0;
+				left:0;			
+			}			
+		
+			.item-type-spin .item-hover {	
+				z-index:5;	
+				-webkit-transition: all 300ms ease-out;
+				-moz-transition: all 300ms ease-out;
+				-o-transition: all 300ms ease-out;
+				transition: all 300ms ease-out;	
+				opacity:0;
+				cursor:pointer;					
+				display:block;
+				text-decoration:none;
+				text-align:center;					
+			}
+			
+				.item-type-spin .item-info {
+					z-index:10;
+					color:#ffffff;
+					display:table-cell;
+					vertical-align:middle;
+					position:relative;
+					z-index:5;			
+			    -webkit-transform:  rotate(-90deg);
+			    -moz-transform: rotate(-90deg);
+			    -ms-transform: rotate(-90deg);			    
+			    transform:  rotate(-90deg);			    
+					-webkit-transition: all 300ms ease-out;
+					-moz-transition: all 300ms ease-out;
+					-o-transition: all 300ms ease-out;
+					transition: all 300ms ease-out;						 					
+				}
+			
+				.item-type-spin .item-info .headline {
+					font-size:18px;			
+					width:75%;
+					margin:0 auto;		
+					border:4px solid #ffffff;
+					padding:10px;
+				}
+				
+				.item-type-spin .item-info .line {
+					 height:1px;
+					 width:60%;
+					 margin:15px auto 10px auto;
+					 background-color:#ffffff;		 
+
+				}
+				
+				.item-type-spin .item-info .date {
+					font-size:14px;
+					font-style:italic;
+				}
+				
+				.item-type-spin .item-hover .mask {
+					background-color:#000;
+					opacity:0.5;
+					-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+					filter: alpha(opacity=50);										
+					z-index:0;
+				}
+				
+				.item-type-spin .item-hover:hover {
+					opacity:1;
+				}				
+				
+				.item-type-spin .item-hover:hover .item-info {
+			    -webkit-transform: scale(1,1);
+			    -moz-transform: scale(1,1);
+			    -ms-transform: scale(1,1);			    
+			    transform: scale(1,1);	
+				}								
+			
+			.item-img {			
+				background-color:#7a548f;
+				z-index:0;			
+			}
+                        
+                        
+.item img {
+    width: 48%;
+}
+.item h2 {
+    color: #33495d;
+    font-family: dosis-r;
+    font-size: 24px;
+}
+li{
+    list-style: none;
+}
+.quizContainer {
+    margin-top: 20px;
+}
+.quizContainer .question {
+    color: red;
+    font-family: dosis-r;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.choiceList li input {
+    margin-right: 8px;
+}
+.choiceList li {
+    font-family: dosis-b;
+    font-size: 18px;
+}
+.choiceList {
+    color: black;
+    padding: 0 0 0 21px;
+}
+.nextButton {
+    float: left;
+}
+.quizMessage {
+    color: red;
+    float: left;
+    font-family: dosis-r;
+    font-size: 18px;
+    margin-left: 12px;
+    margin-top: 11px;
+}
+.result{
+color: green;
+float: left;
+font-family: dosis-r;
+font-size: 34px;
+margin-left: 12px;
+margin-top: 11px;
+text-align: center;
+width: 100%;    
+}
+
+
+.myaccount {
+    color: grey;
+    font-family: dosis-r;
+}
+.myaccount .name h2 {
+    color: tomato;
+    font-size: 31px !important;
+    text-transform: capitalize;
+}
+
+
+
+#changepass h5 {
+    color: tomato;
+    font-family: dosis-r;
+    font-size: 28px;
+    margin-top: 42px;
+}
+#changepass input {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #ddd;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    box-shadow: unset !important;
+    width: 200px;
+}
+
+#changepass .btn {
+    float: left;
+}
+#changepass #loading {
+    float: left;
+    margin-left: 7px !important;
+    margin-top: 8px;
+}
